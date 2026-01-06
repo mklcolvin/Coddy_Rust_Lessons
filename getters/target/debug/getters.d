@@ -1,0 +1,1 @@
+/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/getters/target/debug/getters: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/getters/src/main.rs /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/getters/src/profile.rs

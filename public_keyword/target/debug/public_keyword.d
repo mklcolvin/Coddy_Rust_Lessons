@@ -1,0 +1,1 @@
+/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/public_keyword/target/debug/public_keyword: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/public_keyword/src/main.rs /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/public_keyword/src/product.rs
