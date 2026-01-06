@@ -1,0 +1,54 @@
+   0.030282838s  INFO prepare_target{force=false package_id=private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields) target="private_fields"}: cargo::core::compiler::fingerprint: fingerprint error for private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields)/Check { test: false }/TargetInner { name: "private_fields", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields/src/main.rs", Edition2021) }
+   0.030330751s  INFO prepare_target{force=false package_id=private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields) target="private_fields"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields/target/debug/.fingerprint/private_fields-adcc21bf218861fb/bin-private_fields`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+   0.032234154s  INFO prepare_target{force=false package_id=private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields) target="private_fields"}: cargo::core::compiler::fingerprint: fingerprint error for private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields)/Check { test: true }/TargetInner { name: "private_fields", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields/src/main.rs", Edition2021) }
+   0.032293325s  INFO prepare_target{force=false package_id=private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields) target="private_fields"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields/target/debug/.fingerprint/private_fields-bbaece23657e4654/test-bin-private_fields`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+    Checking private_fields v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/private_fields)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.29s

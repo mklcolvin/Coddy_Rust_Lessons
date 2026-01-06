@@ -1,1 +1,55 @@
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
+    Blocking waiting for file lock on package cache
+   0.031677406s  INFO prepare_target{force=false package_id=getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters) target="getters"}: cargo::core::compiler::fingerprint: fingerprint error for getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters)/Check { test: false }/TargetInner { name: "getters", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters/src/main.rs", Edition2021) }
+   0.032412144s  INFO prepare_target{force=false package_id=getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters) target="getters"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters/target/debug/.fingerprint/getters-edc60b77ef9e7d8e/bin-getters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+   0.036761059s  INFO prepare_target{force=false package_id=getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters) target="getters"}: cargo::core::compiler::fingerprint: fingerprint error for getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters)/Check { test: true }/TargetInner { name: "getters", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters/src/main.rs", Edition2021) }
+   0.036795605s  INFO prepare_target{force=false package_id=getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters) target="getters"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters/target/debug/.fingerprint/getters-37ec44bff0f391ab/test-bin-getters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+    Checking getters v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/getters)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.29s

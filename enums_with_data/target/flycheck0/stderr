@@ -1,0 +1,54 @@
+   0.031096663s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)/Check { test: false }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/src/main.rs", Edition2021) }
+   0.031146706s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/target/debug/.fingerprint/enums_with_data-252ca69964bdd377/bin-enums_with_data`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+   0.032848638s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)/Check { test: true }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/src/main.rs", Edition2021) }
+   0.032872296s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/target/debug/.fingerprint/enums_with_data-3bf192e9e1fb8ed1/test-bin-enums_with_data`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+    Checking enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.31s

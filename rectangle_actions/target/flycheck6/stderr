@@ -1,0 +1,54 @@
+   0.071221171s  INFO prepare_target{force=false package_id=rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions) target="rectangle_actions"}: cargo::core::compiler::fingerprint: fingerprint error for rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions)/Check { test: false }/TargetInner { name: "rectangle_actions", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions/src/main.rs", Edition2021) }
+   0.071358002s  INFO prepare_target{force=false package_id=rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions) target="rectangle_actions"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions/target/debug/.fingerprint/rectangle_actions-323bdb930546ab05/bin-rectangle_actions`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+   0.072973268s  INFO prepare_target{force=false package_id=rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions) target="rectangle_actions"}: cargo::core::compiler::fingerprint: fingerprint error for rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions)/Check { test: true }/TargetInner { name: "rectangle_actions", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions/src/main.rs", Edition2021) }
+   0.073031016s  INFO prepare_target{force=false package_id=rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions) target="rectangle_actions"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions/target/debug/.fingerprint/rectangle_actions-5caece494a091a95/test-bin-rectangle_actions`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+    Checking rectangle_actions v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/rectangle_actions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.27s
