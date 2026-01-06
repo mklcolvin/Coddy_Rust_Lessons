@@ -1,54 +1,58 @@
-   0.031096663s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)/Check { test: false }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/src/main.rs", Edition2021) }
-   0.031146706s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/target/debug/.fingerprint/enums_with_data-252ca69964bdd377/bin-enums_with_data`
+   0.046916400s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data)/Check { test: false }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("C:\\Users\\mcolvin\\Documents\\Programming\\Rust\\Coddy_Rust_Lessons\\enums_with_data\\src\\main.rs", Edition2021) }
+   0.047063400s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data\target\debug\.fingerprint\enums_with_data-17fa3e10bf851808\bin-enums_with_data`
 
 Caused by:
-    No such file or directory (os error 2)
+    The system cannot find the file specified. (os error 2)
 
 Stack backtrace:
-   0: <unknown>
-   1: <unknown>
-   2: <unknown>
-   3: <unknown>
-   4: <unknown>
-   5: <unknown>
-   6: <unknown>
-   7: <unknown>
-   8: <unknown>
-   9: <unknown>
-  10: <unknown>
-  11: <unknown>
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
   12: <unknown>
   13: <unknown>
   14: <unknown>
   15: <unknown>
-  16: __libc_start_call_main
-  17: __libc_start_main_alias_1
-  18: <unknown>
-   0.032848638s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)/Check { test: true }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/src/main.rs", Edition2021) }
-   0.032872296s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data/target/debug/.fingerprint/enums_with_data-3bf192e9e1fb8ed1/test-bin-enums_with_data`
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.098938100s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint: fingerprint error for enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data)/Check { test: true }/TargetInner { name: "enums_with_data", doc: true, ..: with_path("C:\\Users\\mcolvin\\Documents\\Programming\\Rust\\Coddy_Rust_Lessons\\enums_with_data\\src\\main.rs", Edition2021) }
+   0.099003800s  INFO prepare_target{force=false package_id=enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data) target="enums_with_data"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data\target\debug\.fingerprint\enums_with_data-3fdc81fdf9884082\test-bin-enums_with_data`
 
 Caused by:
-    No such file or directory (os error 2)
+    The system cannot find the file specified. (os error 2)
 
 Stack backtrace:
-   0: <unknown>
-   1: <unknown>
-   2: <unknown>
-   3: <unknown>
-   4: <unknown>
-   5: <unknown>
-   6: <unknown>
-   7: <unknown>
-   8: <unknown>
-   9: <unknown>
-  10: <unknown>
-  11: <unknown>
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
   12: <unknown>
   13: <unknown>
   14: <unknown>
   15: <unknown>
-  16: __libc_start_call_main
-  17: __libc_start_main_alias_1
-  18: <unknown>
-    Checking enums_with_data v0.1.0 (/home/mklcolvin/Documents/Programming/Rust/Coddy_Rust_Lessons/enums_with_data)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.31s
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking enums_with_data v0.1.0 (C:\Users\mcolvin\Documents\Programming\Rust\Coddy_Rust_Lessons\enums_with_data)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.41s
