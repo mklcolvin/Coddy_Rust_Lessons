@@ -4,8 +4,8 @@
 
 pub struct Profile {
     // TODO: Add fields here
-    username: String,
-    nickname: Option<String>,
+    pub username: String,
+    pub nickname: Option<String>,
 }
 
 impl Profile {
@@ -13,7 +13,7 @@ impl Profile {
     // Takes a username (String) and an optional nickname (Option<String>)
     pub fn new(username: String, nickname: Option<String>) -> Self {
         // TODO: Create and return a new Profile
-        todo!()
+        Profile { username, nickname }
     }
 
     // TODO: Implement display_name method
@@ -21,7 +21,7 @@ impl Profile {
     // Hint: Use unwrap_or or unwrap_or_else
     pub fn display_name(&self) -> String {
         // TODO: Return nickname if Some, otherwise return username
-        todo!()
+        self.nickname.clone().unwrap_or_else(|| self.username.clone())
     }
 
     // TODO: Implement formatted_nickname method
@@ -30,6 +30,6 @@ impl Profile {
     // Hint: Use map to transform the Option value
     pub fn formatted_nickname(&self) -> Option<String> {
         // TODO: Use map to transform nickname into bracketed format
-        todo!()
+        self.nickname.as_ref().map(|nick| format!("[{}]", nick))
     }
 }
