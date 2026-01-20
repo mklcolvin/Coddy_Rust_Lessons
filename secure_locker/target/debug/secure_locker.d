@@ -1,1 +1,0 @@
-/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/secure_locker/target/debug/secure_locker: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/secure_locker/src/locker.rs /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/secure_locker/src/main.rs
