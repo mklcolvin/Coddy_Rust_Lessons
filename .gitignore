@@ -1,1 +1,6 @@
 target/
+**/*.rs.bk
+stderr
+stdout
+.rustc_info.*
+Cargo.lock
