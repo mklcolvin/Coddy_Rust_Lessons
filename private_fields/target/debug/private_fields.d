@@ -1,1 +1,0 @@
-/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/private_fields/target/debug/private_fields: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/private_fields/src/main.rs /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/private_fields/src/sensor.rs

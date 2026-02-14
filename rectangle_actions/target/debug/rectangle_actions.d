@@ -1,1 +1,0 @@
-/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/rectangle_actions/target/debug/rectangle_actions: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/rectangle_actions/src/main.rs

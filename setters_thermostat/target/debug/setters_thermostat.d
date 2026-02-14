@@ -1,1 +1,0 @@
-/Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/setters_thermostat/target/debug/setters_thermostat: /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/setters_thermostat/src/main.rs /Volumes/RedwoodCity/Users/mklcolvin/Development/Rust/projects/setters_thermostat/src/thermostat.rs
