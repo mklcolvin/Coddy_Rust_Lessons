@@ -34,10 +34,17 @@ fn main() {
     
     // TODO: Create a NamedLocation instance with name, x, and y
 
+    let my_Named = NamedLocation { name: name, x: x, y: y};
+
     // TODO: Demonstrate explicit clone (NamedLocation only implements Clone, not Copy)
     // Use .clone() to create a duplicate
+
+    let cloned_location = my_Named.clone();
 
     // TODO: Print original and cloned location
     // Format: "Original location: {name} at ({x}, {y})"
     // Format: "Cloned location: {name} at ({x}, {y})"
+
+    println!("Original location: {} at ({}, {})", my_Named.name, my_Named.x, my_Named.y);
+    println!("Cloned location: {} at ({}, {})", cloned_location.name, cloned_location.x, cloned_location.y);    
 }
