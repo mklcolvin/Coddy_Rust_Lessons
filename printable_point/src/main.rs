@@ -28,11 +28,15 @@ fn main() {
     // TODO: Print the first point using debug format {:?}
     // Format: "Debug: Point { x: ..., y: ... }"
 
-    writeln!("Debug: Point { x: {}, y: {}}", )
+    println!("Debug: {:?}", first_point);
 
     // TODO: Print the second point using display format {}
     // Format: "Display: (..., ...)"
 
+    println!("Display: ({})", second_point); 
     // TODO: Compare the two points and print the result
     // Format: "Equal: true" or "Equal: false"
+    let are_equal = first_point == second_point;
+    println!("Equal: {}", are_equal);
+
 }
