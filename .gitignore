@@ -5,3 +5,4 @@ stderr
 stdout
 *.rustc_info.json
 Cargo.lock
+launch.json
